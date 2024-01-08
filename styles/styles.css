@@ -1,0 +1,169 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--gray: #7e7e7e;
+	--white: #fff;
+	--font-base: 'Nunito', sans-serif;
+}
+
+body {
+	width: 100vw;
+	height: auto;
+	font-family: var(--font-base);
+	font-size: 62.5%;
+	/*overflow-x: hidden;*/
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#header-real-state {
+	width: 100%;
+	height: auto;
+	background-image: url(../assets/real-state-house.svg);
+    background-size: cover;
+    background-position: 0px -22.7rem;
+	/*display: flex;
+	justify-content: space-between;*/
+}
+
+#navbar-real-state {
+	width: 100%;
+	height: 12vh;
+	display: flex;
+	justify-content: space-between;
+    border-bottom-style: solid;
+    border-color: var(--white);
+    border-width: thin;
+    /*couverture*/
+    background: black;
+    opacity: 0.5;
+    width: 100%;
+}
+
+#logo-uniq-luxury {
+	width: 23%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#logo-uniq-luxury img {
+	width: 60%;
+}
+
+#navbar-container {
+	width: 35%;
+	display: flex;
+}
+
+/*85%*/
+#navbar-auth-lang {
+	width: 85%;
+	display: flex;
+}
+
+#navbar-authentication {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1vw;
+}
+
+#log-in {
+	border-right-style: solid;
+	border-color: var(--gray);
+	padding-right: 1rem;
+	border-width: thin;
+	color: var(--gray);
+    text-decoration: none;
+}
+
+#sign-up {
+	padding-left: 1rem;
+	color: var(--white);
+    text-decoration: none;
+}
+
+#navbar-languages {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	font-size: 1vw;
+}
+
+#lang-spanish {
+    padding-right: 1rem;
+	color: var(--gray);
+    width: 35%;
+    text-decoration: none;
+}
+
+#lang-english {
+    /*padding-left: 1rem;*/
+	color: var(--white);
+    border-right-style: solid;
+    height: 60%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    border-width: thin;
+    border-color: var(--gray);
+    text-decoration: none;
+}
+
+/*15%*/
+#navbar-hamburger {
+	width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar-hamburger img {
+    width: 45%;
+}
+
+/*Cuerpo del header*/
+#header-body {
+    /*height: 46.2rem;
+    background: black;
+    opacity: 0.5;
+    width: 100%;*/
+     /*couverture*/
+     background: black;
+     opacity: 0.5;
+     width: 100%;
+    height: 100vh;
+    width: 100%;
+}
+
+/*50%*/
+#title-real-estate {
+    width: 50%;
+    height: 100%;
+}
+
+#search-real-state {
+    width: 50%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
