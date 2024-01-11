@@ -11,8 +11,13 @@
 			<nav id="navbar-real-state">
 				<figure id="logo-uniq-luxury">
 					<img
+						src="./assets/logo-ul-header.svg"
+						id="logo-uniq-mobile"
+					/>
+					<img
 						src="./assets/logo-uniqluxury.svg"
 						alt="logo uniq luxury"
+						id="logo-uniq-desktop"
 					/>
 				</figure>
 
@@ -92,7 +97,7 @@
 							<h1>Real Estate</h1>
 						</div>
 						<div id="cta-button-container">
-							<button id="cta-button">
+							<button id="cta-button" type="button">
 								<img src="./assets/icon-arrow-cta.svg" />
 								<span id="button-properties"
 									>View all properties</span
@@ -103,12 +108,381 @@
 				</section>
 				<section id="search-real-state">
 					<div id="input-container">
-						<input id="input-search" placeholder="Ex. Villa Budapest"/>
+						<input
+							id="input-search"
+							placeholder="Ex. Villa Budapest"
+							type="text"
+						/>
 					</div>
 				</section>
 			</div>
 		</header>
-		<main></main>
-		<footer></footer>
+		<main id="main-real-estate">
+			<section id="properties-for-sale">
+				<div id="sale-gallery">
+					<div id="sale-gallery-pictures">
+						<a class="sale-image">
+							<img
+								src="./assets/sale-image-1.jpg"
+								alt="real state image"
+							/>
+							<div class="sale-image-description">
+								<span class="sale-country">Mexico</span>
+								<span class="sale-city">Tulum</span>
+							</div>
+						</a>
+
+						<a class="sale-image">
+							<img
+								src="./assets/sale-image-2.jpg"
+								alt="real state image"
+							/>
+							<div class="sale-image-description">
+								<span class="sale-country">England</span>
+								<span class="sale-city">Glasgow</span>
+							</div>
+						</a>
+
+						<a class="sale-image">
+							<img
+								src="./assets/sale-image-3.jpg"
+								alt="real state image"
+							/>
+							<div class="sale-image-description">
+								<span class="sale-country">France</span>
+								<span class="sale-city">Marseilles</span>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div id="sale-description">
+					<div id="sale-title">
+						<h3>Worldwide gallery</h3>
+						<h2>Properties for sale</h2>
+						<div id="sale-title-description">
+							<p>
+								In an ultimate jetsetter location or a forever
+								home, our experts have the expertise it takes to
+								knowledgeably advise you at every stage of the
+								property cycle.
+							</p>
+						</div>
+					</div>
+					<div id="sale-buttons-container">
+						<button id="prev-btn" type="button">
+							<img src="./assets/icon-arrow-prev-next.svg" />
+							<span>PREV</span>
+						</button>
+						<button id="properties-btn" type="button">
+							View all properties
+						</button>
+						<button id="next-btn" type="button">
+							<span>NEXT</span>
+							<img src="./assets/icon-arrow-prev-next.svg" />
+						</button>
+					</div>
+				</div>
+			</section>
+
+			<section id="properties-for-rent">
+				<div id="rent-description">
+					<div id="rent-title">
+						<h3>Worldwide gallery</h3>
+						<h2>Properties for rent</h2>
+						<div id="rent-title-description">
+							<p>
+								In an ultimate jetsetter location or a forever
+								home, our experts have the expertise it takes to
+								knowledgeably advise you at every stage of the
+								property cycle.
+							</p>
+						</div>
+					</div>
+					<div id="rent-buttons-container">
+						<button id="rent-prev-btn" type="button">
+							<img src="./assets/icon-arrow-prev-next.svg" />
+							<span>PREV</span>
+						</button>
+						<button id="rent-properties-btn" type="button">
+							View all properties
+						</button>
+						<button id="rent-next-btn" type="button">
+							<span>NEXT</span>
+							<img src="./assets/icon-arrow-prev-next.svg" />
+						</button>
+					</div>
+				</div>
+
+				<div id="rent-gallery">
+					<div id="rent-gallery-pictures">
+						<a class="rent-image">
+							<img
+								src="./assets/rent-image-1.jpg"
+								alt="real state image"
+							/>
+							<div class="rent-image-description">
+								<span class="rent-country">France</span>
+								<span class="rent-city">Carcassonne</span>
+							</div>
+						</a>
+
+						<a class="rent-image">
+							<img
+								src="./assets/rent-image-2.jpg"
+								alt="real state image"
+							/>
+							<div class="rent-image-description">
+								<span class="rent-country">Germany</span>
+								<span class="rent-city">Munich</span>
+							</div>
+						</a>
+
+						<a class="rent-image">
+							<img
+								src="./assets/rent-image-3.jpg"
+								alt="real state image"
+							/>
+							<div class="rent-image-description">
+								<span class="rent-country">France</span>
+								<span class="rent-city">Clorete</span>
+							</div>
+						</a>
+					</div>
+				</div>
+			</section>
+
+			<section id="luxury-properties">
+				<div id="luxury-header">
+					<h3>Luxury properties</h3>
+					<h2>Developments</h2>
+				</div>
+				<div id="luxury-content">
+					<a class="luxury-box">
+						<figure class="luxury-image">
+							<img
+								src="./assets/property-1.png"
+								alt="The Surf Row property"
+							/>
+						</figure>
+						<div class="luxury-img-description">
+							<span class="luxury-place">The Surf Row</span>
+							<span class="luxury-city">Surfside</span>
+						</div>
+					</a>
+					<a class="luxury-box">
+						<figure class="luxury-image">
+							<img
+								src="./assets/property-2.png"
+								alt="Indigo  property"
+							/>
+						</figure>
+						<div class="luxury-img-description">
+							<span class="luxury-place">Indigo </span>
+							<span class="luxury-city">Vero Beach</span>
+						</div>
+					</a>
+					<a class="luxury-box">
+						<figure class="luxury-image">
+							<img
+								src="./assets/property-3.png"
+								alt="Rosewood Baha Mar property"
+							/>
+						</figure>
+						<div class="luxury-img-description">
+							<span class="luxury-place"
+								>Rosewood - Baha Mar</span
+							>
+							<span class="luxury-city">Nassau, the Bahamas</span>
+						</div>
+					</a>
+					<a class="luxury-box">
+						<figure class="luxury-image">
+							<img
+								src="./assets/property-4.png"
+								alt="The Astor Tower property"
+							/>
+						</figure>
+						<div class="luxury-img-description">
+							<span class="luxury-place"
+								>St. Regis - The Astor Tower</span
+							>
+							<span class="luxury-city">Brickell, Miami</span>
+						</div>
+					</a>
+					<a class="luxury-box">
+						<figure class="luxury-image">
+							<img
+								src="./assets/property-5.png"
+								alt="Giralda Place property"
+							/>
+						</figure>
+						<div class="luxury-img-description">
+							<span class="luxury-place">Giralda Place</span>
+							<span class="luxury-city">Coral Gables</span>
+						</div>
+					</a>
+					<a class="luxury-box">
+						<figure class="luxury-image">
+							<img
+								src="./assets/property-6.png"
+								alt="The William Tower property"
+							/>
+						</figure>
+						<div class="luxury-img-description">
+							<span class="luxury-place"
+								>St. Regis - The William Tower</span
+							>
+							<span class="luxury-city">Brickell, Miami</span>
+						</div>
+					</a>
+					<a class="luxury-box">
+						<figure class="luxury-image">
+							<img
+								src="./assets/property-7.png"
+								alt="Solterre at Cockleshell Bay property"
+							/>
+						</figure>
+						<div class="luxury-img-description">
+							<span class="luxury-place"
+								>Solterre at Cockleshell Bay</span
+							>
+							<span class="luxury-city">St. Kitts and nevis</span>
+						</div>
+					</a>
+					<a class="luxury-box">
+						<figure class="luxury-image">
+							<img
+								src="./assets/property-8.png"
+								alt="Urbin property"
+							/>
+						</figure>
+						<div class="luxury-img-description">
+							<span class="luxury-place">Urbin</span>
+							<span class="luxury-city">Coconut Grove</span>
+						</div>
+					</a>
+
+					<a class="luxury-box-mobile">
+						<figure class="luxury-image">
+							<img
+								src="./assets/property-9.jpg"
+								alt="Urbin property"
+							/>
+						</figure>
+						<div class="luxury-img-description">
+							<span class="luxury-place">Urbin</span>
+							<span class="luxury-city">Coconut Grove</span>
+						</div>
+					</a>
+					<a class="luxury-box-mobile">
+						<figure class="luxury-image">
+							<img
+								src="./assets/property-10.jpg"
+								alt="Urbin property"
+							/>
+						</figure>
+						<div class="luxury-img-description">
+							<span class="luxury-place">Urbin</span>
+							<span class="luxury-city">Coconut Grove</span>
+						</div>
+					</a>
+					<a class="luxury-box-mobile">
+						<figure class="luxury-image">
+							<img
+								src="./assets/property-11.jpg"
+								alt="Urbin property"
+							/>
+						</figure>
+						<div class="luxury-img-description">
+							<span class="luxury-place">Urbin</span>
+							<span class="luxury-city">Coconut Grove</span>
+						</div>
+					</a>
+				</div>
+			</section>
+
+			<section id="services">
+				<div id="services-img">
+					<div id="rectangle"></div>
+					<figure id="interior-design-img">
+						<img src="./assets/services-real-estate.jpg" />
+					</figure>
+				</div>
+
+				<div id="services-description">
+					<figure id="services-logo">
+						<img src="./assets/logo-ul.svg" />
+					</figure>
+					<div id="services-content">
+						<h3>Services</h3>
+						<h2>Art Curation & Interior Design</h2>
+						<div id="services-content-description">
+							<p>
+								In an ultimate jetsetter location or a forever
+								home, our experts have the expertise it takes to
+								knowledgeably advise you at every stage of the
+								property cycle.
+							</p>
+						</div>
+
+						<div id="services-buttons-container">
+							<button id="services-prev-btn" type="button">
+								<img src="./assets/icon-arrow-prev-next.svg" />
+								<span>PREV</span>
+							</button>
+							<button id="services-contact-btn" type="button">
+								Contact us
+							</button>
+							<button id="services-next-btn" type="button">
+								<span>NEXT</span>
+								<img src="./assets/icon-arrow-prev-next.svg" />
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div id="data-real-estate">
+				<form id="join-form">
+					<div id="form-title">
+						<h3>Join the list</h3>
+						<h2>Unlock the exclusive world</h2>
+					</div>
+					<div id="form-input">
+						<label>Name: </label>
+						<input type="text" placeholder="Ex. name@mail.com" />
+						<button id="form-bnt" type="button">Submit</button>
+					</div>
+				</form>
+
+				<div id="ul-info">
+					<div id="info-become" class="info-box">
+						<img src="./assets/logo-uniqluxury.svg" />
+						<a href="#">Become a New Uniq Artist</a>
+						<a href="#">Become a Commercial Partner</a>
+					</div>
+					<div id="info-places" class="info-box">
+						<a href="#">Suites</a>
+						<a href="#">Cities</a>
+						<a href="#">Villas</a>
+					</div>
+					<div id="info-properties" class="info-box">
+						<a href="#">Houses</a>
+						<a href="#">Apartaments</a>
+						<a href="#">Contact us</a>
+					</div>
+					<div id="info-num-email" class="info-box">
+						<a href="#">Call Center</a>
+						<p>+52 55 6840 4000</p>
+						<a href="#">concierge@uniqluxury.com</a>
+					</div>
+				</div>
+				<div id="copyright-info">
+					<p>Copyright © 2022</p>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
